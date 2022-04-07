@@ -7,6 +7,8 @@ $primary-color4: #eaea7f;
 /* variables for the fonts */
 $font1:'Inter', sans-serif;
 
-h1{
+h1,h2,h3,h4,h5{
   font-family: $font1;
+  color: $primary-color1;
+  font-weight: bold;
 }
