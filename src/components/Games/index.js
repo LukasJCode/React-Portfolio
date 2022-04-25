@@ -2,17 +2,17 @@ import "./index.scss";
 import PageHeader from "../PageHeader";
 import Bubbles from "../Bubbles";
 
-const Web = () =>{
+const Games = () =>{
     return (
         <div>
             <PageHeader
-                text={"Web"}
+                text={"Games"}
             />
             <Bubbles
-                pageName="Web"
+                pageName="Games"
             />
         </div>
     )
 }
 
-export default Web;
+export default Games;

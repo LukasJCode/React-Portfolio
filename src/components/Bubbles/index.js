@@ -1,7 +1,7 @@
 import "./index.scss";
-import PlaceHolder from "../../assets/images/LJ.png";
 import Bubble from "../Bubble";
 import webdata from "../../data/webbubbledata";
+import gamesdata from "../../data/gamesbubbledata";
 
 function createBubble(bubble)
 {
@@ -15,12 +15,28 @@ function createBubble(bubble)
     )
 }
 
+function selectPage(pageName)
+{
+    switch(pageName)
+    {
+        case "Web":
+            console.log(pageName);
+            webdata.map(createBubble);
+            break;
+        case "Games":
+            gamesdata.map(createBubble)
+            break;
+        default:
+            console.log(pageName);
+    }
+}
+
 const Bubbles = (props) =>{
 
     return (
         <div className="bubbles">
             <div className="row">
-                {webdata.map(createBubble)}
+                {(props.pageName==="Web")?webdata.map(createBubble):gamesdata.map(createBubble)}
             </div>
         </div>
     )
