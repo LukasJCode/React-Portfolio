@@ -1,6 +1,6 @@
 import "./index.scss";
 import PageHeader from "../PageHeader";
-import Carousel from "../Carousel";
+import Bubbles from "../Bubbles";
 
 const Web = () =>{
     return (
@@ -8,7 +8,8 @@ const Web = () =>{
             <PageHeader
                 text={"Web"}
             />
-            <Carousel/>
+            <Bubbles
+            />
         </div>
     )
 }
