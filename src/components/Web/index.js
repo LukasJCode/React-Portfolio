@@ -4,7 +4,7 @@ import Bubbles from "../Bubbles";
 
 const Web = () =>{
     return (
-        <div>
+        <div id="web">
             <PageHeader
                 text={"Web"}
             />

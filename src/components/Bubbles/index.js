@@ -15,22 +15,6 @@ function createBubble(bubble)
     )
 }
 
-function selectPage(pageName)
-{
-    switch(pageName)
-    {
-        case "Web":
-            console.log(pageName);
-            webdata.map(createBubble);
-            break;
-        case "Games":
-            gamesdata.map(createBubble)
-            break;
-        default:
-            console.log(pageName);
-    }
-}
-
 const Bubbles = (props) =>{
 
     return (

@@ -22,13 +22,7 @@ const webBubbles = [
         title: "Bubble Title",
         body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
         img:"/images/code.png"
-    },
-    {
-        id: 5,
-        title: "Bubble Title",
-        body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
-        img:"/images/code.png"
-    },
+    }
 ]
 
 export default webBubbles;

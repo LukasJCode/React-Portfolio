@@ -4,7 +4,7 @@ import Bubbles from "../Bubbles";
 
 const Games = () =>{
     return (
-        <div>
+        <div id="games">
             <PageHeader
                 text={"Games"}
             />
