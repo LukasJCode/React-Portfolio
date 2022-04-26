@@ -13,10 +13,16 @@ const About = () =>{
                     <p className="col-lg-6">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris Lorem ipsum dolor sit amet, 
                         consectetur adipiscing elit. Mauris Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Mauris Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris Lorem ipsum dolor sit 
+                        amet, consectetur adipiscing elit. Mauris Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit. Mauris Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Mauris Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris 
                     </p>
                     <p className="col-lg-6">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit. Mauris Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Mauris Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris Lorem ipsum dolor sit 
+                        amet, consectetur adipiscing elit. Mauris Lorem ipsum dolor sit amet, 
                         consectetur adipiscing elit. Mauris Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Mauris Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris 
                     </p>

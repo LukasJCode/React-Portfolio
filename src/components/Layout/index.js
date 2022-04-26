@@ -5,6 +5,7 @@ import Web from "../Web";
 import Games from "../Games";
 import About from "../About";
 import Contact from "../Contact";
+import Footer from "../Footer";
 
 const Layout = () =>{
     return (
@@ -15,7 +16,7 @@ const Layout = () =>{
         <Games/>
         <About/>
         <Contact/>
-
+        <Footer/>
     </div>)
 }
 
