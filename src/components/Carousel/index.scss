@@ -1,14 +1,14 @@
 .carousel-container{
     text-align: center;
-    align-items: center;
-    width: 50%;
+    margin:auto;
+    margin-top: 3%;
+    width: 100%;
 }
-
-#project-carousel{
-    text-align: center;
-}
-
 .carousel-image{
-    width: 10rem;
-    height: 10rem;
+    width: 20rem;
+    height: 20rem;
+}
+
+.carousel-indicators {
+    bottom: -50px;
 }
