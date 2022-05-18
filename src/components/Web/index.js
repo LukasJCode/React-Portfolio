@@ -9,7 +9,7 @@ const Web = () =>{
                 text={"Web"}
             />
             <Bubbles
-                pageName="Web"
+                category="Web"
             />
         </div>
     )

@@ -9,7 +9,7 @@ const Games = () =>{
                 text={"Games"}
             />
             <Bubbles
-                pageName="Games"
+                category="Games"
             />
         </div>
     )

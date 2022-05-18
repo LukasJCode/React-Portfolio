@@ -30,16 +30,22 @@ function createCarouselItem(img, index){
     )
 }
 
+function createIndicators(img, index){
+    console.log(index);
+    var classVar = "";
+    if(index === 0)
+        classVar = "active";
+    else
+        classVar = "";
+    return(
+        <button type="button" data-bs-target="#project-carousel" className={classVar} data-bs-slide-to={index} aria-label={"Slide " + (index + 1)}></button>
+    )
+}
+
 const Carousel = (props) =>{
     return (
         <div className="carousel-container">
             <div id="project-carousel" className="carousel slide" data-bs-ride="carousel" data-bs-touch="false" data-bs-interval="false">
-                <div className="carousel-indicators">
-                    <button type="button" data-bs-target="#project-carousel" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#project-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#project-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#project-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                </div>
                 <div className="carousel-inner">
                     {selectProject(props.id)}             
                     {imgs.map((currentElement, index)=>{
@@ -54,6 +60,11 @@ const Carousel = (props) =>{
                     <span className="carousel-control-next-icon" aria-hidden="true"></span>
                     <span className="visually-hidden">Next</span>
                 </button>
+                <div className="carousel-indicators">
+                    {imgs.map((img, index)=>{
+                        return createIndicators(img, index);
+                    })}
+                </div>
             </div>
         </div>
     )

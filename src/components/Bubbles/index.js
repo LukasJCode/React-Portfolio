@@ -1,17 +1,19 @@
 import "./index.scss";
 import Bubble from "../Bubble";
-import webdata from "../../data/webbubbledata";
-import gamesdata from "../../data/gamesbubbledata";
+import projectdata from "../../data/projectdata";
 
-function createBubble(bubble)
+function createBubble(bubble, category)
 {
     return(
+        bubble.category = category?
         <Bubble
             key={bubble.id}
             title={bubble.title}
-            description={bubble.body}
-            img={bubble.img}
+            description={bubble.shortDescription}
+            img={bubble.thumbnailImg}
         />
+        :
+        null
     )
 }
 
@@ -20,7 +22,10 @@ const Bubbles = (props) =>{
     return (
         <div className="bubbles">
             <div className="row">
-                {(props.pageName==="Web")?webdata.map(createBubble):gamesdata.map(createBubble)}
+                {projectdata.map((project)=>
+                {
+                    return createBubble(project, props.category)
+                })}
             </div>
         </div>
     )
