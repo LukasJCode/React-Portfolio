@@ -4,19 +4,19 @@ import Layout from "./components/Layout";
 import Project from "./components/Project";
 import projectdata from "./data/projectdata";
 
-var projects = [];
-
-function createProject(project)
+function createRoute(project)
 {
-  projects.push(project);
+  var url = "/project-" + project.category + "-" + project.id;
+  return (
+    <Route path={url} element={<Project id={project.id} title={project.title} description={project.description} />}/>
+  )
 }
 
 function App() {
-  projectdata.map(createProject);
   return (
     <Routes>
       <Route path="/" element={<Layout/>}></Route>
-      <Route path="/project" element={<Project id={projects[0].id} title={projects[0].title} description={projects[0].description} />}></Route>
+      {projectdata.map(createRoute)}
     </Routes>
   )
 }
