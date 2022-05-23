@@ -5,9 +5,11 @@ import projectdata from "../../data/projectdata";
 function createBubble(bubble, category)
 {
     return(
-        bubble.category = category?
+        (bubble.category === category.toLowerCase())?
         <Bubble
             key={bubble.id}
+            id={bubble.id}
+            categoryName={bubble.category}
             title={bubble.title}
             description={bubble.shortDescription}
             img={bubble.thumbnailImg}

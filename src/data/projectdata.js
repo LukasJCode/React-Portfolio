@@ -30,7 +30,7 @@ const projects = [
         title: "Bubble Title",
         shortDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
         thumbnailImg: "/images/code.png",
-        category: "game",
+        category: "games",
         imgs:[
             "/images/code.png",
             "/images/code.png",
@@ -43,7 +43,7 @@ const projects = [
         title: "Bubble Title",
         shortDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
         thumbnailImg: "/images/code.png",
-        category: "game",
+        category: "games",
         imgs:[
             "/images/code.png",
             "/images/code.png",

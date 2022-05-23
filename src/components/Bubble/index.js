@@ -1,10 +1,12 @@
 import "./index.scss";
 
 const Bubble = (props) =>{
+    var url = "/project-" + props.categoryName + "-" + props.id;
+    //console.log(url);
     return (
-        <div className="col-lg-3 col-md-6">
+        <div className="col-lg-3 col-md-6 bubble">
             <div className="container">
-                <a href="/project">
+                <a href={url}>
                     <h4 className="centered bubble-title">{props.title}</h4>
                     <p className="centered bubble-body">{props.description}</p>
                     <img className="bubble-image" src={props.img} alt="Project">
