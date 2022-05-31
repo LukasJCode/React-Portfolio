@@ -57,17 +57,19 @@ const Contact = () =>{
                             <textarea type="text" className="form-control" rows="5" required name="message" placeholder="Type your message here...*"/>
                         </div>
                         <p className="contact-note">Fields marked with * are required</p>
-                        <button type="submit" className="btn btn-light btn-lg home-buttons"><EmailOutlinedIcon/> Submit</button>
+                        <div className="submit-button">
+                            <button type="submit" className="btn btn-light btn-lg home-buttons"><EmailOutlinedIcon/> Submit</button>
+                        </div>
                     </form>
                 </div>
                 <div className="contact-icons">
-                    <div>
+                    <div className="contact-icon">
                         <a href="https://www.facebook.com/lukas.jurgilas.98"><FacebookIcon style={{ fontSize: 70, color:"white" }}/></a>
                     </div>
-                    <div>
+                    <div className="contact-icon">
                         <a href="https://github.com/LukasJCode"><GitHubIcon style={{ fontSize: 70, color:"white" }}/></a>
                     </div>
-                    <div>
+                    <div className="contact-icon">
                         <a href="https://www.linkedin.com/in/lukas-jurgilas/"><LinkedInIcon style={{ fontSize: 70, color:"white" }}/></a>
                     </div>
                 </div>
