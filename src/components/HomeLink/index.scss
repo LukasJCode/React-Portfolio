@@ -1,0 +1,13 @@
+.logo{
+    margin-left: 6.5%
+}
+
+.navbar-brand img{
+    height: 4rem;
+}
+
+@media (max-width: 540px) {
+    .logo{
+        margin-left: 4%
+    }
+}

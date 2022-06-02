@@ -1,13 +1,11 @@
 import "./index.scss";
-import Logo from "../../assets/images/mainicon.png"
+import HomeLink from "../HomeLink";
 
 const Header = () =>{
     return (
         <nav className="navbar navbar-expand-lg navbar-dark">
             <div className="container-fluid">
-                <a className="navbar-brand logo" href="/">
-                    <img src={Logo} alt="logo"></img>
-                </a>
+                    <HomeLink/>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
