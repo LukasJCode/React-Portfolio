@@ -22,6 +22,27 @@ h4{
     visibility: hidden;
 }
 
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bubble-image{
+    opacity: 0.9;
+    z-index: -1;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    width: auto;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+
+}
+
 /* Bubble hover actions */
 .container:hover .bubble-image{
     opacity: 0.3;
@@ -33,25 +54,4 @@ h4{
 
 .container:hover .bubble-title{
     visibility: hidden;
-}
-
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.bubble-image{
-    opacity: 0.7;
-    z-index: -1;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    height: 100%;
-    width: auto;
-    -webkit-transform: translate(-50%,-50%);
-        -ms-transform: translate(-50%,-50%);
-            transform: translate(-50%,-50%);
-
 }
