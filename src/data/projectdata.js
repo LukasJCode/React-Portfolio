@@ -42,45 +42,47 @@ const projects = [
     },
     {
         id: 4,
-        title: "Bubble Title",
-        shortDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
-        thumbnailImg: "/images/code.png",
-        category: "games",
+        title: "To-Do-List",
+        shortDescription: "A list that helps you to organize your day",
+        thumbnailImg: "/images/to-do-list-web/Thumbnail.png",
+        category: "web",
         imgs:[
-            "/images/code.png",
-            "/images/code.png",
-            "/images/code.png"
+            "/images/to-do-list-web/Screenshot_1.png",
+            "/images/to-do-list-web/Screenshot_2.png",
+            "/images/to-do-list-web/Screenshot_3.png"
         ],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
+        description: "To-do-list is a website where you can organize your day in funny and creative way. Front end made with HTML CSS EJS, backend with node.js, mongoose.js, express.js",
     },
     {
-        id: 4,
-        title: "Bubble Title",
-        shortDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
-        thumbnailImg: "/images/code.png",
+        id: 5,
+        title: "ARcade Madness",
+        shortDescription: "ARcade Madness is a multiplayer augumented reality game",
+        thumbnailImg: "/images/arcademadnessgame/Thumbnail.png",
         category: "games",
         imgs:[
-            "/images/code.png",
-            "/images/code.png",
-            "/images/code.png"
-        ],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
-    },
-    {
-        id: 4,
-        title: "Bubble Title",
-        shortDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
-        thumbnailImg: "/images/code.png",
-        category: "games",
-        imgs:[
-            "/images/code.png",
-            "/images/code.png",
-            "/images/code.png"
+            "/images/arcademadnessgame/Screenshot_1.png",
+            "/images/arcademadnessgame/Screenshot_2.png",
+            "/images/arcademadnessgame/Screenshot_3.png",
+            "/images/arcademadnessgame/Screenshot_4.png",
+            "/images/arcademadnessgame/Screenshot_5.png"
         ],
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
     },
     {
         id: 6,
+        title: "Bubble Title",
+        shortDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
+        thumbnailImg: "/images/code.png",
+        category: "games",
+        imgs:[
+            "/images/code.png",
+            "/images/code.png",
+            "/images/code.png"
+        ],
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
+    },
+    {
+        id: 7,
         title: "Bubble Title",
         shortDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
         thumbnailImg: "/images/code.png",
