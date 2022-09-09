@@ -6,7 +6,7 @@ import projectdata from "./data/projectdata";
 
 function createRoute(project)
 {
-  var url = "/project-" + project.category + "-" + project.id;
+  var url = "/React-Portfolio/project-" + project.category + "-" + project.id;
   return (
     <Route path={url} element={<Project id={project.id} title={project.title} description={project.description} />}/>
   )
