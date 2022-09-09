@@ -66,33 +66,7 @@ const projects = [
             "/images/arcademadnessgame/Screenshot_4.png",
             "/images/arcademadnessgame/Screenshot_5.png"
         ],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
-    },
-    {
-        id: 6,
-        title: "Bubble Title",
-        shortDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
-        thumbnailImg: "/images/code.png",
-        category: "games",
-        imgs:[
-            "/images/code.png",
-            "/images/code.png",
-            "/images/code.png"
-        ],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
-    },
-    {
-        id: 7,
-        title: "Bubble Title",
-        shortDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
-        thumbnailImg: "/images/code.png",
-        category: "games",
-        imgs:[
-            "/images/code.png",
-            "/images/code.png",
-            "/images/code.png"
-        ],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
+        description: "ARcade Madness is a multiplayer augumented reality game for android. Project was made with Unity3D as a bachelors project for my studies.",
     }
 ]
 

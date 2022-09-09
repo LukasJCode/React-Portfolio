@@ -10,9 +10,7 @@ const Home = () =>{
                 <div className="col-lg-6 home-text">
                     <h1 className="home-header">Lukas Jurgilas</h1>
                     <h5>Software Engineer</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam</p>
+                    <p>"Continuous improvement is better than delayed perfection" - Mark Twain</p>
                     <a href="/docs/PortfolioResume.pdf" target="_blank"><button type="button" className="btn btn-dark btn-lg home-buttons"><ArticleIcon/> View Resume</button></a>
                     <a href="#contact"><button href="#contact" type="button" className="btn btn-outline-light btn-lg home-buttons"><ContactMailIcon/>Contact</button></a>
                 </div>
