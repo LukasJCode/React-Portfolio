@@ -74,7 +74,7 @@ const Contact = () =>{
                     </div>
                 </div>
             </div>
-            <button className="arrow"><a href="/"><ArrowUpwardOutlinedIcon style={{ fontSize: 50, color:"#f24a72" }} /></a></button>
+            <button className="arrow"><a href="/React-Portfolio"><ArrowUpwardOutlinedIcon style={{ fontSize: 50, color:"#f24a72" }} /></a></button>
         </div>
     )
 }

@@ -12,7 +12,7 @@ function createBubble(bubble, category)
             categoryName={bubble.category}
             title={bubble.title}
             description={bubble.shortDescription}
-            img={bubble.thumbnailImg}
+            img={process.env.PUBLIC_URL + bubble.thumbnailImg}
         />
         :
         null

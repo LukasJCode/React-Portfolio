@@ -11,7 +11,7 @@ const Home = () =>{
                     <h1 className="home-header">Lukas Jurgilas</h1>
                     <h5>Software Engineer</h5>
                     <p>"Continuous improvement is better than delayed perfection" - Mark Twain</p>
-                    <a href="/docs/PortfolioResume.pdf" target="_blank"><button type="button" className="btn btn-dark btn-lg home-buttons"><ArticleIcon/> View Resume</button></a>
+                    <a href="/React-Portfolio/docs/PortfolioResume.pdf" target="_blank"><button type="button" className="btn btn-dark btn-lg home-buttons"><ArticleIcon/> View Resume</button></a>
                     <a href="#contact"><button href="#contact" type="button" className="btn btn-outline-light btn-lg home-buttons"><ContactMailIcon/>Contact</button></a>
                 </div>
                 <div className="col-lg-6">

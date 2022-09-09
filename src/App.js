@@ -15,7 +15,7 @@ function createRoute(project)
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Layout/>}></Route>
+      <Route exact path="/" element={<Layout/>}></Route>
       {projectdata.map(createRoute)}
     </Routes>
   )

@@ -1,5 +1,6 @@
 import "./index.scss";
 import PageHeader from "../PageHeader";
+import BackgroundImg from "../../assets/images/LJ_background.jpg";
 
 const About = () =>{
     return (
@@ -7,7 +8,7 @@ const About = () =>{
             <PageHeader
                 text={"About"}
             />
-            <img className="about-image" src="/images/LJ_background.jpg" alt="profile"></img>
+            <img className="about-image" src={BackgroundImg} alt="profile"></img>
             <div className="about-text">
                 <div className="row">
                     <p className="col-lg-6">

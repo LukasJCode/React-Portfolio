@@ -1,8 +1,7 @@
 import "./index.scss";
 
 const Bubble = (props) =>{
-    var url = "/project-" + props.categoryName + "-" + props.id;
-    //console.log(url);
+    var url = "/React-Portfolio/project-" + props.categoryName + "-" + props.id;
     return (
         <div className="col-lg-3 col-md-6 bubble">
             <div className="container">
