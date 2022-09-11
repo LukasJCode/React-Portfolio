@@ -1,5 +1,6 @@
 import "./index.scss";
 import HomeLink from "../HomeLink";
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Header = () =>{
     return (
@@ -12,16 +13,16 @@ const Header = () =>{
                 <div className="collapse navbar-collapse" id="navbarText">
                 <ul className="navbar-nav ms-auto">
                     <li className="nav-item">
-                        <a className="nav-link" href="#web">Web</a>
+                        <Link to="#web"><a className="nav-link" href="#web">Web</a></Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#games">Games</a>
+                        <Link to="#games"><a className="nav-link" href="#games">Games</a></Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#about">About</a>
+                        <Link to="#about"><a className="nav-link" href="#about">About</a></Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#contact">Contact</a>
+                        <Link to="#contact"><a className="nav-link" href="#contact">Contact</a></Link>
                     </li>
                 </ul>
                 </div>

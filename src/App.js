@@ -5,12 +5,10 @@ import Project from "./components/Project";
 
 function App() {
   return (
-    <Router>
       <Routes>
-        <Route exact path={process.env.PUBLIC_URL} element={<Layout/>}></Route>
-        <Route path={process.env.PUBLIC_URL + "/project/:id"} element={<Project/>}/>
+        <Route exact path="/" element={<Layout/>}></Route>
+        <Route path="project/:id" element={<Project/>}/>
       </Routes>
-    </Router>
   )
 }
 
