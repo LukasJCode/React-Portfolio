@@ -1,7 +1,7 @@
 import "./index.scss";
 
 const Bubble = (props) =>{
-    var url = process.env.PUBLIC_URL + "/project-" + props.categoryName + "-" + props.id;
+    var url = process.env.PUBLIC_URL + "/project/" + props.id;
     return (
         <div className="col-lg-3 col-md-6 bubble">
             <div className="container">

@@ -6,12 +6,7 @@ var imgs = [];
 
 function selectProject(id)
 {
-    var item = null;
-    projectdata.forEach(e => {
-        if(e.id === id)
-            item = e;
-    });
-    imgs = item.imgs;
+    imgs = projectdata[id].imgs;
 }
 
 function createCarouselItem(img, index){
