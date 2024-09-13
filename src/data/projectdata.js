@@ -30,10 +30,25 @@ const projects = [
       "/React-Portfolio/images/gymapp/Screenshot_3.png",
     ],
     description:
-      "Gym tracker is meant to help people track their workout progress and document each workout. Backend API is made with C# .NET front end with React",
+      "Gym tracker is meant to help people track their workout progress and document each workout. Backend API is made with C# .NET front end with React Native",
   },
   {
     id: 3,
+    title: "Shift-Manager",
+    shortDescription: "Shift manager to manage employees, tasks and shifts",
+    thumbnailImg: "/images/shiftmanager/Thumbnail.png",
+    category: "web",
+    imgs: [
+      "/React-Portfolio/images/shiftmanager/Screenshot_1.png",
+      "/React-Portfolio/images/shiftmanager/Screenshot_2.png",
+      "/React-Portfolio/images/shiftmanager/Screenshot_3.png",
+      "/React-Portfolio/images/shiftmanager/Screenshot_4.png",
+    ],
+    description:
+      "Shift manager to manage employees, tasks and shifts. Made with .NET Core MVC",
+  },
+  {
+    id: 4,
     title: "Note Website",
     shortDescription: "A simple website used to add/remove notes for yourself",
     thumbnailImg: "/images/noteweb/Thumbnail.png",
@@ -47,7 +62,7 @@ const projects = [
       "A simple website used to add/remove notes for yourself. For the front-end React.js was used. For the back end Node. More specifically Express framework. Information is stored in MongoDB database. Some other libraries used in the project: mongoose, cors, axios.",
   },
   {
-    id: 4,
+    id: 5,
     title: "Simon Game",
     shortDescription:
       "Simon the game is a childrens toy, this is website replica of it",
@@ -62,7 +77,7 @@ const projects = [
       "A website dedicated to Simons childrens game. A digital replica of it. Made with HTML CSS and JavaScript.",
   },
   {
-    id: 5,
+    id: 6,
     title: "Secrets",
     shortDescription:
       "Secrets is a website where users can share their secrets anonymously",
@@ -79,7 +94,7 @@ const projects = [
       "Secrets is a website where people can share their secrets securely and anonymously. Front end made with HTML CSS and powered by ejs library. Back end was made with node.js using: express.js, mongoose.js, passport.js packages. Google Authentification is also enabled.",
   },
   {
-    id: 6,
+    id: 7,
     title: "To-Do-List",
     shortDescription: "A list that helps you to organize your day",
     thumbnailImg: "/images/to-do-list-web/Thumbnail.png",
@@ -93,7 +108,7 @@ const projects = [
       "To-do-list is a website where you can organize your day in funny and creative way. Front end made with HTML CSS EJS, backend with node.js, mongoose.js, express.js",
   },
   {
-    id: 7,
+    id: 8,
     title: "ARcade Madness",
     shortDescription: "ARcade Madness is a multiplayer augumented reality game",
     thumbnailImg: "/images/arcademadnessgame/Thumbnail.png",
